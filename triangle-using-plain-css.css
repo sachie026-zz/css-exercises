@@ -1,0 +1,32 @@
+/* Add your styles here */
+
+.base-triangle{
+  width : 200px;
+  height : 200px;
+  background-color: turquoise;
+  border-left : 50px solid black;
+  border-top:50px solid red;
+  border-right:50px solid yellow;
+  border-bottom: 50px solid orange;
+}
+
+
+.converting-triangle{
+  width : 0px;
+  height : 0px;
+  background-color: turquoise;
+  border-left : 50px solid black;
+  border-top:50px solid red;
+  border-right:50px solid yellow;
+  border-bottom: 50px solid orange;
+}
+
+.actual-triangle{
+  width : 0px;
+  height : 0px;
+  background-color: white;
+  border-left : 50px solid transparent;
+  border-top:50px solid transparent;
+  border-right:50px solid transparent;
+  border-bottom: 50px solid orange;
+}
